@@ -1,0 +1,45 @@
+{
+  "name": "genossrv",
+  "version": "0.1.0",
+  "description": "GenosDB Server: High-performance distributed graph database node powered by Bun + SQLite. Peer-compatible with browser GenosDB via P2P sync.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebanrfp/GenosSRV.git"
+  },
+  "keywords": [
+    "GenosDB",
+    "GDB",
+    "graph",
+    "database",
+    "realtime",
+    "decentralized",
+    "peer-to-peer",
+    "distributed",
+    "P2P",
+    "sqlite",
+    "bun"
+  ],
+  "author": {
+    "name": "Esteban Fuster Pozzi",
+    "email": "estebanrfp@gmail.com",
+    "url": "https://github.com/estebanrfp"
+  },
+  "license": "(Zlib OR MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/estebanrfp/GenosSRV/issues"
+  },
+  "homepage": "https://github.com/estebanrfp/GenosSRV#readme",
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "dependencies": {
+    "@msgpack/msgpack": "^3.1.2",
+    "pako": "^2.1.0",
+    "webrtc-polyfill": "^1.2.0"
+  }
+}
